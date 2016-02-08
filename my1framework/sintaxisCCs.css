@@ -1,0 +1,61 @@
+ /*font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit*/
+
+ 
+Свойство border-top
+ позволяет одновременно установить толщину, стиль и цвет границы сверху элемента. Значения могут идти в любом порядке, разделяясь пробелом, браузер сам определит, 
+ какое из них соответствует нужному свойству.
+
+Синтаксис
+border-top: [border-width || border-style || border-color] | inherit
+Значения
+border-width определяет толщину границы. Для управления ее видом предоставляется несколько значений border-style. Их названия и результат действия представлен на рис. 1.
+
+
+
+
+    <style>
+   .line {
+    border-top: 1px solid red; /* Линия сверху текста */
+    border-bottom: 1px solid red; /* Линия снизу текста */
+    padding: 5px; /* Поля вокруг текста */
+   }
+  </style>
+ 
+ Масштабирует фоновое изображение согласно заданным размерам.
+
+Синтаксис
+background-size: [ <значение> | <проценты> | auto ]{1,2} | cover | contain
+  
+  <style>
+   div {
+    height: 200px; /* Высота блока */
+    border: 2px solid #000; /* Параметры рамки */
+    background: url(images/mybg.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+   }
+  </style>
+  
+  Свойство background-attachment устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента.
+\  Изображение может быть зафиксировано и оставаться неподвижным, либо перемещаться совместно с документом. 
+В CSS3 можно указать несколько значений для ряда фоновых изображений, перечисляя значения через запятую.
+<style>
+   body {
+    background-image: url(images/help.png); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+   }
+  </style>
+ </head>
+ <body>
+  <div style="height:2000px">
+    Пример текста
+  </div>
+  <style>
+   body {
+    background-image: url(images/pattern-left.png), url(images/pattern-right.png);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+   }
+  </style>
+  
+  

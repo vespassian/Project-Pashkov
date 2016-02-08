@@ -1,0 +1,29 @@
+  .mainPage {
+      width: 525px;
+      height: 715px;
+      background-color: white;
+      margin: 0 auto ;
+
+  }
+    h1 {
+        font: bold;
+        font-size: inherit;
+        width: 220px;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 20;
+    }
+   .foto{
+       width: 134px;
+       height: 128px;
+       background-color: white;
+        text-align: center;
+        margin: 20px auto;
+
+   }
+
+   .prof {
+        margin: auto 20px;
+        padding: 10px;
+        border-bottom: 1px solid;
+        }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Page</title>
+
+
+
+</head>
+<body>
+<!--<div>
+    <span >Cars list</span>
+</div>
+
+<ul class = "cars list">
+    <li>Toyota Corolla</li>
+    <li>Kia C'eed</li>
+    <li>Subaru Forester</li>
+</ul>
+<input type = "text" id = "newCarsName"/>
+<button id = "addCarsButton">New car</button>
+<button id = "remove">Remove list</button>
+<!--<form style="margin: 10px", name = "javaForm">
+        <input type = "text" name = "inputLogin"  />
+            <span >Это поле обязательно для заполнения</span>
+        <input type = "password" name = "inputPassword"/>
+             <span >Вы уже зарегистрировались</span>
+        <button id = "okButton"  >Ok</button>
+</form>-->
+<form  name = "javaForm" action="handler.php">
+    <table width="100%" cellspacing="0" cellpadding="4">
+        <tr>
+            <td align="right" width="100">Login</td>
+            <td><input type="text" name="nickname" maxlength="50" size="20"></td>
+            <td><span >Это поле обязательно для заполнения</span></td>
+        </tr>
+        <tr>
+            <td align="right">Password</td>
+            <td><input type="password" name="inputPassword" maxlength="50" size="20"></td>
+            <td><span >Вы уже зарегистрировались</span></td>
+        </tr>
+        <tr>
+            <td> <button id = "okButton"  >Ok</button></td>
+        </tr>
+    </table>
+</form>
+
+
+
+<!--suppress JSUnresolvedVariable -->
+
+<script type="text/javascript" >
+
+
+    // button addLiInputText
+    var buttonadd =  document.getElementById("addCarsButton");
+    function addLiInputText (){
+        var elem =  document.getElementsByTagName("ul")[0];
+        var  newLi = document.createElement('li');
+
+        newLi.innerText = document.getElementById("newCarsName").value;
+
+        elem.appendChild(newLi);
+    }
+    buttonadd.addEventListener("click",addLiInputText,false);
+
+    // buttonremove
+
+        var buttonremove =  document.getElementById("remove");
+            function removelist (){
+            var elem =  document.getElementsByTagName("ul")[0];
+            while (elem.children.length) {
+                elem.removeChild(elem.children[0]);
+    }
+}
+buttonremove.addEventListener("click",removelist,false);
+
+	// inputTextbyEnter
+
+var inputTextEnter =  document.getElementById("newCarsName");
+ function addLiInputTextEnter (e) {
+     e = e || window.event;
+     if (e.keyCode === 13) {
+
+         addLiInputText();
+     }
+ }
+        inputTextEnter.addEventListener("keyup",addLiInputTextEnter,false);
+
+/*  function inputEnter (e) {
+        if(event.KeyCode == 13)
+        if(e || e != "") {
+        addLiInputText ()
+    }
+    };*/
+
+	var elem =  document.javaForm
+	
+	function Myevent () {
+        if( this.myInput.value != "" ) {
+        
+		alert("Form True")
+		
+    }else alert("Form Fals")
+    };
+	
+	elem.addEventListener("submit",Myevent);	
+	
+
+</script>
+
+
+
+</body>
+
+</html>

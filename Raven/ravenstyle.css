@@ -1,0 +1,48 @@
+	.menu {
+    position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+   }
+   .text {
+    height: 1000px;
+   }
+    body {
+	opacity: 0.7;
+    background: url("i.jpg") no-repeat, #dadada;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 115%; /* Современные браузеры */
+   }
+  .li_menu { 
+	float: right;
+	width: 115px; height: 30px;
+	background-size: 115px 30px;
+	border-radius: 10px;
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #c17e7e; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    /*-webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    /*transform: skewX(-30deg); /* CSS3 */
+   }
+   .a_menu {
+	text-align:  center;
+	color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    /*-webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(30deg); /* Для Firefox */
+    -o-transform: skewX(30deg); /* Для Opera */
+    -ms-transform: skewX(30deg); /* Для IE */
+    /*transform: skewX(30deg); /* CSS3 */
+   }
+   .li_menu:hover {
+    background: #333; /* Цвет фона при наведении курсора мыши */
+   }

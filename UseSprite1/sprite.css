@@ -1,0 +1,24 @@
+.icon {
+  height: 76px;
+  width: 76px;
+  display: block;
+  float: left;
+  margin: 0;
+  background: url('sprite.png') no-repeat;
+}
+.icon.twitter { background-position: 0px 0px; }
+.icon.twitter:hover{ background-position: 0px -152px; }
+.icon.twitter:active{ background-position: 0px -228px; }
+.icon.twitter:visited{ background-position: 0px -76px; }
+.icon.facebook { background-position: -76px -0px; }
+.icon.facebook:hover{ background-position: -76px -152px; }
+.icon.facebook:active{ background-position: -76px -228px; }
+.icon.facebook:visited{ background-position: -76px -76px; }
+.icon.item3 { background-position: -152px -0px; }
+.icon.item3:hover{ background-position: -152px -152px; }
+.icon.item3:active { background-position: -152px -228px; }
+.icon.item3:visited { background-position: -152px -76px; }
+.icon.item4 { background-position: -228px -0px; }
+.icon.item4:hover { background-position: -228px -152px; }
+.icon.item4:active{ background-position: -228px -228px; }
+.icon.item4:visited { background-position: -228px -76px; }

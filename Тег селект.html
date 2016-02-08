@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" content="text/html" http-equiv="content-type">
+			<title>Тег селект</title>
+				<style>
+	.help {
+    position: absolute; /* Абсолютное позиционирование */
+    right: 20px; /* Положение элемента от правого края */
+    top: 20px; /* Положение от верхнего края */
+    width: 225px; /* Ширина блока */
+    padding: 5px; /* Поля вокруг текста */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+				</style>
+	</head>
+	
+	<body>
+		<form action="select1.php" method="post"">
+			<select size="3" multiple name="hero[]">
+			 <option disabled>Выберите героя</option>
+			 <option value="Чебурашка">Чебурашка</option>
+			 <option selected value="Крокодил Гена">Крокодил Гена</option>
+			 <option value="Чебурашка">Чебурашка</option>
+			 <option value="Шапокляк">Шапокляк</option>
+			 <option value="Крыса Лариса">Крыса лариса</option>
+			</select>
+		</form>
+		
+		<form>
+			<fieldset>
+				<label for="login">enter your login: </label>
+				<input id="login" type="text" value="Login"/>
+			</fieldset>
+			
+			<fieldset>
+				<label for="pass">enter your password: </label>
+				<input id="pass" type="password" value="password"/>				
+			</fieldset>
+		</form>
+	</body>
+</html>

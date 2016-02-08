@@ -1,0 +1,434 @@
+@media screen and (max-width: 1100px) {
+    #win_create_first_visit {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #wrap #content .post {
+        width: calc(100% / 3 - 5px);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #subscription_title,
+    #subscription {
+        display: none;
+    }
+
+    .mobile_none_1200 {
+        display: none;
+    }
+
+    #wrap {
+        width: calc(100% - 4px);
+        margin: 2px;
+    }
+
+    #wrap #content #what_index_big {
+        display: none;
+    }
+
+    #wrap #content #stata,
+    #wrap #content #metrika {
+        display: none;
+    }
+
+    #area.blog {
+        width: calc(100% - 4px);
+        margin: 2px;
+        background: none;
+    }
+
+    #area.blog #header {
+        margin-bottom: 1px;
+    }
+
+    #area.blog #header_bottom {
+        width: calc(100% - 2px);
+        margin: 2px 2px 2px 0;
+    }
+
+    #area.blog #content {
+        width: calc(100% - 10px)
+    }
+
+    #area.blog #sidebar {
+        display: none;
+    }
+
+    #area.blog #content #theory {
+        width: calc(100% + 10px);
+        margin: 1px 0 -2px -5px;
+    }
+
+    #area.blog #footer {
+        width: calc(100% - 40px);
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #price_practice {
+        float: left;
+        width: calc(100% - 10px);
+        height: calc(100% - 60px - 10px - 40px);
+        background: #FFFFFF;
+        padding: 5px;
+        margin: 0 0 0 0;
+        text-align: center;
+        font-family: "Open Sans", Tahoma, sans-serif;
+        font-size: 1em;
+        font-weight: 100;
+    }
+
+    .false_mobile,
+    #part,
+    #about,
+    .mobile_footer,
+    #about_anchor {
+        display: none;
+    }
+
+    #area #header {
+        border-bottom: 0;
+    }
+
+    #passage,
+    #title_passage,
+    #index_title_other,
+    #index_title_share,
+    #index_title_course_js,
+    #index_title_course_blog,
+    #index_title_course_all {
+        display: none;
+    }
+
+    #profile .title {
+        width: calc(100%);
+    }
+
+    #profile .data {
+        width: calc(100%);
+        margin: 5px 0 0 0;
+    }
+
+    #wrap #content #money_robokassa .center .button .logo {
+        display: none;
+    }
+
+    #wrap #content #money_robokassa .center {
+        width: calc(100% - 80px);
+    }
+
+    #wrap #content #money_robokassa .center input[type="text"] {
+        float: left;
+        width: calc(60% - 20px - 4px);
+    }
+
+    #wrap #content #money_robokassa .center .button {
+        float: right;
+        width: calc(40% - 40px - 4px - 10px);
+        padding: 8px 20px 8px 20px;
+        margin: 0;
+    }
+
+    #wrap #content #money_robokassa .right {
+        display: none;
+    }
+
+    #header_bottom #meta {
+        display: none;
+    }
+
+    #wrap #money {
+        display: none;
+    }
+
+    #wrap #content .lesson_element {
+        float: left;
+        width: calc(100% - 5px);
+        background: #FFFFFF;
+        margin: 0 0 5px 5px;
+    }
+
+    /* поиск нормальный */
+    #what_is {
+        display: block;
+        margin-bottom: 2px !important;
+        height: auto !important;
+    }
+
+    #header_bottom .right .item {
+        display: none;
+    }
+
+    #theory .title {
+        display: none;
+    }
+
+    #search #body_resultsDiv {
+        float: left;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        overflow: hidden;
+        z-index: 999999999999999999999999999999999999;
+    }
+
+    #search #resultsDiv {
+        float: left;
+        position: absolute;
+        width: calc(100% - 4px - 20px);
+        height: auto;
+        top: 60px;
+        left: 2px;
+        background: #FFFFFF;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    #search #body_resultsDiv .close {
+        float: left;
+        position: absolute;
+        top: -15px;
+        right: calc(50% - 48px / 2);
+        font-family: 'PT Mono', Tahoma, sans-serif;
+        font-size: 80px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    #what_search, #not_result_div {
+        display: none;
+    }
+
+    /* остальное */
+    #header #logo {
+        display: none;
+    }
+
+    #wrap #content .desc {
+        display: none;
+    }
+
+    #wrap #content .name.all {
+        width: calc(100% - 15px);
+    }
+
+    #wrap #content #translate {
+        display: none;
+    }
+
+    #area #left #what_link {
+        display: none;
+    }
+
+    .go_learn {
+        display: none;
+    }
+
+    #wrap #content .post {
+        width: calc(100% / 3 - 5px);
+    }
+
+    #area #center, #area #right, #area #what_no {
+        display: none
+    }
+
+    #area {
+        height: inherit;
+        overflow: inherit;
+        margin: 2px;
+        width: calc(100% - 4px);
+    }
+
+    #area #header {
+        margin: 0;
+        width: calc(100%)
+    }
+
+    #area #footer {
+        float: left;
+        margin: -5px 0 2px 0;
+        width: calc(100%);
+    }
+
+    #footer .copy {
+        float: left;
+        width: calc(100%);
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #footer .link {
+        float: left;
+        width: calc(100%);
+        text-align: center;
+    }
+
+    #area #header_bottom {
+        margin: 2px 0 2px 0;
+        width: calc(100% - 2px)
+    }
+
+    #area #header_bottom .crumbs #choose_kament {
+        display: none;
+    }
+
+    #area #header_bottom .crumbs #choose_lesson,
+    #area #header_bottom .crumbs #choose_help {
+        display: none;
+    }
+
+    .index_other_course {
+        display: none;
+    }
+
+    #area #left {
+        height: auto;
+        overflow-y: visible;
+        width: 100%;
+        margin: 0;
+    }
+
+    #area #content {
+        height: auto;
+        overflow-y: visible;
+        width: 100%;
+        margin: 0;
+    }
+
+    #area #left #theory {
+        height: auto;
+        overflow-y: visible;
+        width: 100%;
+        margin: 0 0 2px 0 !important;
+    }
+
+    #what_link_bait {
+        display: none;
+    }
+
+    #area #left #theory .content h2,
+    #area #left #theory .content h3 {
+        text-align: center;
+    }
+
+    #area #left #theory .content h1,
+    #area #left #theory .content h2,
+    #area #left #theory .content h3 {
+        width: calc(100% + 5px);
+    }
+
+    #area #left #theory .content {
+        padding: 5px 10px 5px 5px;
+        width: calc(100% - 15px - 3px);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #profile .statistics {
+        margin: 5px 0 0 -5px;
+    }
+
+    #profile .statistics .item {
+        width: calc(100% / 2 - 5px);
+        margin-bottom: 5px;
+    }
+
+    #profile .editor {
+        width: calc(100%);
+    }
+
+    #profile .notepad {
+        width: calc(100%);
+        margin: 5px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        -webkit-box-shadow: 0 2px 3px 0 #EBEEEF;
+        -moz-box-shadow:    0 2px 3px 0 #EBEEEF;
+        box-shadow:         0 2px 3px 0 #EBEEEF;
+        margin: 0 0 0 0;
+    }
+
+    #footer {
+        margin: -5px 0 0 0;
+        -webkit-box-shadow: 0 -2px 3px 0 #EBEEEF;
+        -moz-box-shadow:    0 -2px 3px 0 #EBEEEF;
+        box-shadow:         0 -2px 3px 0 #EBEEEF;
+    }
+
+    #wrap #content #about span,
+    #wrap #content #about h2 {
+        text-align: center;
+    }
+
+    #wrap #content .post {
+        width: calc(100% / 2 - 5px);
+    }
+
+    #wrap #content #money_robokassa {
+        display: none;
+    }
+
+    #what_suggestions {
+        display: none;
+    }
+
+    #forum_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #wrap #content #what_index_big {
+        width: calc(100% - 5px);
+        padding: 0;
+    }
+
+    #wrap #content .post {
+        width: calc(100% - 5px);
+    }
+
+    #area #number_theory {
+        display: none;
+    }
+
+    .br_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #login .form #left {
+        float: left;
+        width: calc(100%);
+    }
+
+    #login .form #right {
+        float: left;
+        width: calc(100% + 10px);
+        margin: 10px 0 0 -10px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #menu {
+        display: none;
+    }
+
+    #profile .statistics .item {
+        width: calc(100% - 5px);
+        margin-bottom: 5px;
+    }
+
+    .mobile_profile {
+        display: none;
+    }
+}

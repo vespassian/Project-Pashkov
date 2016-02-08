@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ниспадающее меню</title>
+  
+		<style>
+		* {margin: 0;padding: 0;} 	/*Обнуление всех отступов*/
+ul.menu {
+    margin: 20px;			
+}
+ul.menu li {
+    list-style: none;		/*Скрытие маркеров*/
+}
+/*==================== Вкладка ====================*/
+ul.menu > li {				/*Вкладка*/
+    display: inline-block;	/*Выстраивает в по горизонтали*/
+    position: relative;		/*Привязка дочернего элемента*/
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+    padding: 5px;
+    margin-right: 30px;
+}
+ul.menu > li:hover {
+    background-color: #fff;	/*Фон находиться над тенью вкладки и над выпадающийм блоком*/
+}
+ul.menu > li:hover::after {	/*Тень для вкладки*/
+    content: '';
+    position: absolute;
+    /*----------------------------------Растягивют псевдоэлемент по размеру родителя*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*----------------------------------end*/
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 10px #666;
+    z-index: -2;			/*Тень под выпадающий блок*/
+}
+ul.menu > li:hover > a{
+    text-decoration: none;
+    color: #000;
+}
+/*==================== END ====================*/
+
+
+/*==================== Выпадающий блок ====================*/
+ul.menu > li > ul {
+    display: none;			/*Блок по умолчанию скрыт*/
+    width: 7em;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #666;
+    z-index: -1;			/*Блок под фон вкладки*/
+    top: 28px;
+    left: 0;
+    padding: 3px;
+}
+ul.menu > li:hover > ul {
+    display: inline-block;	/*Включает выпадающий блок при наведении на вкладку*/
+}
+/*==================== END ====================*/
+
+
+/*==================== Пункты подменю ====================*/
+ul.menu > li > ul >li:hover {
+    background-color: #37ABFF;
+}
+ul.menu > li > ul > li > a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 3px;			/*Увеличивает размер кнопки*/
+}
+ul.menu > li > ul >li:hover > a {
+    color: #fff;
+}
+/*==================== END ====================*/
+			
+		</style>
+		
+</head>
+	<body>
+
+		<nav>
+			<ul class='menu'>
+				<li>
+					<a href="">Файл</a>
+						<ul class="collapse">
+							<li><a href="#">Новый</a></li>
+							<li><a href="#">Открыть</a></li>
+							<li><a href="#">Сохранить</a></li>
+							<li><a href="#">Закрыть</a></li>
+						</ul>
+				</li>
+				<li>
+					<a href="">Правка</a>
+						<ul class="collapse">
+							<li><a href="#">Вырезать</a></li>
+							<li><a href="#">Копировать</a></li>
+							<li><a href="#">Вставить</a></li>
+							<li><a href="#">Удалить</a></li>
+						</ul>
+				</li>
+			</ul>
+		</nav>
+              		
+					
+                    				
+       
+	</body>
+</html>

@@ -1,0 +1,70 @@
+/* OPEN SANS */
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('open_sans'), url('/font/open_sans/open_sans_light.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('open_sans'), url('/font/open_sans/open_sans_lightbold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('open_sans'), url('/font/open_sans/open_sans_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('open_sans'), url('/font/open_sans/open_sans_extrabold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* ROBOTO */
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/roboto/roboto_thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/roboto/roboto_light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/roboto/roboto_medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/roboto/roboto_bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*  OTHER */
+@font-face {
+    font-family: 'AleksandraC';
+    src: local('AleksandraC'), local('AleksandraC'), url('/font/other/aleksandrac.woff') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    src: local('PT Mono'), local('PT Mono'), url('/font/other/pt_mono.woff') format('truetype');
+    font-style: normal;
+}
